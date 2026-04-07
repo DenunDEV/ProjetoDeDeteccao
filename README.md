@@ -2,6 +2,17 @@
 
 Sistema de monitoramento de integridade acadêmica com logs criptografados, para consultas de professores e tutores, os auxiliando de monitoramento de provas/testes online de alunos realizados, visando privacidade, segurança, proteção, confidencialidade e respeito a todas as normas de LGPD para estruturação desse projeto visando o meio educacional.
 
+O projeto foi visado para pensar na vigilância do conhecimento nos ambientes educacionais, para com alunos e até professores para evitar que ocorra métodos de trapacear, burlar, colar e printar.
+
+O intuito desse projeto não é de espionar em si, mas apenas de melhoria de monitoramento em aplicações de atividades online. Pois todos nós sabemos que apenas copiar e colar, não enriquece e muito menos desenvolve nosso conhecimento e aprendizagem. Por isso esse método criado é para trazer esse tipo de prevenção para evitar qualquer tipo de trapaça para efetuar um certificado ou uma pontuação melhor.
+
+"Precisamos de mentes, projetos e pessoas brilhantes de bastante inteligencia, com capacidade de criar e melhorar as coisas, e não apenas o mais do que já existe em todo lugar."
+
+
+## Video de demonstração de projeto
+https://www.linkedin.com/posts/denundng_projeto-de-estudo-e-pr%C3%A1tica-de-proctoring-activity-7445875733304057856-xCOK?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFyPfE4BrhkcvOfPsTevdRj97apbqYoF7xw
+
+
 ## 🚀 Instalação
 
 ```bash
