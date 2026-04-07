@@ -1,0 +1,67 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>2d502cf3-fb88-48e5-9464-2d6a9af60a02</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>main.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Projecto-proctoring</Name>
+    <RootNamespace>ProjetodeDetecção</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="core\api_client.py" />
+    <Compile Include="core\license_manager.py" />
+    <Compile Include="core\secure_logger.py" />
+    <Compile Include="keys\generate_keys.py" />
+    <Compile Include="main.py" />
+    <Compile Include="config\settings.py" />
+    <Compile Include="config\__init__.py" />
+    <Compile Include="core\logger.py" />
+    <Compile Include="core\monitor.py" />
+    <Compile Include="core\__init__.py" />
+    <Compile Include="indicators\visual_indicator.py" />
+    <Compile Include="indicators\__init__.py" />
+    <Compile Include="sensors\clipboard_sensor.py" />
+    <Compile Include="sensors\input_sensor.py" />
+    <Compile Include="sensors\window_sensor.py" />
+    <Compile Include="utils\extract_logs.py" />
+    <Compile Include="verificar.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="indicators\" />
+    <Folder Include="config\" />
+    <Folder Include="keys\" />
+    <Folder Include="utils\" />
+    <Folder Include="sensors\" />
+    <Folder Include="core\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config\security_config.json" />
+    <Content Include="instalar.bat" />
+    <Content Include="README_AvisoDeSegurança.md" />
+    <Content Include="sensors\__init__.py" />
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

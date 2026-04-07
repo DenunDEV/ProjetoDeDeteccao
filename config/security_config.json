@@ -1,0 +1,6 @@
+{
+    "admin_password": "Denun@2206",
+    "zip_encryption": "AES256",
+    "auto_send_to_server": false,
+    "retention_days": 180
+}
